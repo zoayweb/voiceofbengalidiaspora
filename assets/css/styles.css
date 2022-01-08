@@ -107,7 +107,7 @@
   --primary: #239df0;
   --primary: #f6931c;
   /* --primary: darkslateblue; */
-  --primary: #7b1f29;
+  --primary: #FF0C04;
   --primary-1: darkred;
   /* --primary: #5b70f9;
   --primary-1: #384cce; */
@@ -163,7 +163,7 @@
 :root.skin-4 {
   --base-0: #0e262b;
   --base-1: #f1f1f1;
-  --primary: #7b1f29;
+  --primary: #FF0C04;
   --primary-1: darkred;
 }
 
@@ -226,7 +226,7 @@
 :root.skin-12 {
   --base-0: #0e262b;
   --base-1: #ffffff;
-  --primary: #7b1f29;
+  --primary: #FF0C04;
   --primary-1: darkred;
 }
 
@@ -1809,8 +1809,8 @@ h6,
 }
 
 .bg-gradient-180 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--primary)), to(var(--secondary)));
-  background-image: linear-gradient(180deg, var(--primary) 0%, var(--secondary) 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#7b1f29), to(var(--secondary)));
+  background-image: linear-gradient(180deg, #7b1f29 0%, var(--secondary) 100%);
 }
 
 .bg-gradient-225 {
@@ -7623,7 +7623,7 @@ Element: Responsive Video
 }
 
 .section-hero.section-hero-5 {
-  background-color: var(--primary);
+  background-color: #7b1f29;;
 }
 
 .section-hero.section-hero-5 .hero-content {
